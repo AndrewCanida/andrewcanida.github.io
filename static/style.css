@@ -227,3 +227,27 @@ a {
   height: 75px;
   width: 200px;
 }
+
+.resume_button {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  background-color: #008cd4;
+  height: 2em;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: -4em;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.resume_button span {
+  display: block;
+  margin-top: 4px;
+  font-family: "PT Sans Caption";
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  color: #FFF;
+}

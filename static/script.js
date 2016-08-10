@@ -244,4 +244,8 @@ $(window).scroll(function() {
 
   });
 
+  $(document).on('click', 'a[href$=".pdf"]', function() {
+    $(this).attr('target', "_blank");
+  });
+
 });
